@@ -1,0 +1,40 @@
+h1,
+p {
+  font-family: Lato;
+}
+.todos-component {
+  border: 1px solid red;
+  padding: 5px;
+}
+.add-todo {
+  border: 1px solid green;
+  padding: 5px;
+  margin-bottom: 5px;
+  display: flex;
+}
+.todo-list {
+  border: 1px solid blue;
+  padding: 5px;
+  max-height: 400px;
+  overflow: auto;
+}
+.todo {
+  border: 1px solid orange;
+  padding: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+.todo p {
+  flex: 1;
+}
+.todo:last-child {
+  margin-bottom: 0;
+}
+.empty-todos {
+  color: red;
+}
+.remove-todo {
+  border: 1px solid purple;
+  padding: 5px;
+}
