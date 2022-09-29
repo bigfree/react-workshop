@@ -3,9 +3,7 @@ import React, { FC, Fragment } from 'react';
 
 const RemoveTodo: FC = ({ id, todos, setTodo }): JSX.Element => {
   const handleRemoveTodo = () => {
-      const filteredTodos = todos.filter((todo) => {
-          return todo.id !== id
-      });
+      const filteredTodos = todos.filter((todo) => todo.id !== id);
       setTodo(filteredTodos);
   };
 
