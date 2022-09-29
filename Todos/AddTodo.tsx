@@ -38,7 +38,6 @@ const AddTodo: FC = ({setTodo}): JSX.Element => {
    * Nastavi todos state na prazdne pole, tym padom sa vsetky ulohy vymazu
    */
   const handleOnClick = (event) => {
-    event.stopPropagation();
     setTodo([]);
   }
 
