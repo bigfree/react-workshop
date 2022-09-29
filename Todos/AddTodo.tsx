@@ -17,7 +17,7 @@ const AddTodo: FC = ({setTodo}): JSX.Element => {
 
   /**
    * Ak submitnem formular prida sa nove todo cez "lift state up"
-   * TODO: pozriet sa na problem lif state up
+   * TODO: pozriet sa na problem lift state up
    */
   const handleOnSubmit = (event) => {
     event.preventDefault();
